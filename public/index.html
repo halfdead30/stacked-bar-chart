@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Home Work 07: DOM</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div style="position: absolute; top: 10px; left: 10px">
+      <div>
+        <h3>Language/Specialization</h3>
+        <select id="selector">
+          <option value="JavaScript" selected>JavaScript</option>
+          <option value="Java">Java</option>
+          <option value="Automation QA">Automation QA</option>
+          <option value="General QA">General QA</option>
+          <option value="Manual QA">Manual QA</option>
+        </select>
+      </div>
+      <div>
+        <h3>
+          Cities
+          <input id="select-all" type="checkbox" checked />
+          <label for="select-all" class="select-unchecked"></label>
+        </h3>
+        <ul id="cities"></ul>
+      </div>
+    </div>
+    <div id="container"></div>
+
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
